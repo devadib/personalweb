@@ -1,0 +1,114 @@
+@import "normalize.css";
+@import "grid.css";
+@import "fonts.css";
+
+
+:root{
+    --text-color : #333333 ;
+    --shadow-color : rgba(19,182,255,0.24);
+    --app-bg-color : #fff;
+    --section-color : #fff;
+
+    
+}
+
+html{
+    font-size: 10px;
+
+}
+
+/* 
+
+
+--- Rest Style ---
+
+
+*/
+
+a{
+    text-decoration: none;
+
+
+
+}
+
+
+
+
+
+
+
+
+/* 
+
+
+--- Body ---
+
+
+*/
+
+
+body{
+
+
+
+    
+
+
+
+
+
+}
+
+
+/* 
+
+
+--- Header ---
+
+
+*/
+
+
+
+.header{
+
+
+
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+
+}
+.nav__title{
+
+
+
+}
+.menu{
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+
+
+
+
+
+}
+.menu__items{
+
+
+
+
+}
+.nav__toggle-icon{
+    display: none;
+
+}
+.nav__toggle-line{
+
+}
