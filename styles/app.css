@@ -498,3 +498,85 @@ body{
 
 
 }
+
+/* 
+
+
+--- Section Services ---
+
+
+*/
+
+
+
+
+
+
+.services{
+
+
+
+}
+
+
+.boxes--purple{
+    background-color:purple;
+
+}
+.boxes--yellow{
+    background-color:yellow;
+
+}
+.boxes--pink{
+    background-color: pink;
+
+}
+.boxes--orange{
+    background-color:orange;
+}
+.boxes--blue{
+    background-color: blue;
+
+}
+.boxes--green{
+    background-color:green;
+
+}
+.boxes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem;
+    gap: 2rem;
+    border-radius:2rem;
+
+
+
+}
+.boxes__svg{
+
+
+
+}
+.boxes__icon{
+
+
+
+}
+.boxes__title{
+    font-family: "Poppins SemiBold";
+    font-size:2rem;
+    margin: 0;
+    
+    
+    
+}
+.boxes__discription{
+    text-align: center;
+    font-size: 1.2rem;
+    color: var(--text-color);
+    margin:0;
+
+
+}
