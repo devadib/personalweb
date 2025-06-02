@@ -520,27 +520,23 @@ body{
 
 
 .boxes--purple{
-    background-color:purple;
+    background-color: #8540FF;
 
 }
 .boxes--yellow{
-    background-color:yellow;
-
+    background-color: #FFC50C;
 }
 .boxes--pink{
-    background-color: pink;
-
+    background-color: #EC407A;
 }
 .boxes--orange{
-    background-color:orange;
+    background-color: #FF6331;
 }
 .boxes--blue{
-    background-color: blue;
-
+    background-color: #13B6FF;
 }
 .boxes--green{
-    background-color:green;
-
+    background-color: #49AF46;
 }
 .boxes{
     display: flex;
@@ -550,24 +546,27 @@ body{
     padding: 5rem;
     gap: 2rem;
     border-radius:2rem;
-
-
-
+    position: relative;
+    z-index: 0;
+    overflow: hidden;
+    
+    
 }
 .boxes__svg{
-
-
-
+    
+    
+    
 }
 .boxes__icon{
-
-
-
+    
+    
+    
 }
 .boxes__title{
     font-family: "Poppins SemiBold";
     font-size:2rem;
     margin: 0;
+    color: #fff;
     
     
     
@@ -575,8 +574,17 @@ body{
 .boxes__discription{
     text-align: center;
     font-size: 1.2rem;
-    color: var(--text-color);
+    color:#fff;
     margin:0;
 
+
+}
+.service__wave{
+    position:absolute;
+    left:0;
+    right:0;
+    bottom:0;
+    width:100%;
+    z-index:-1;
 
 }
