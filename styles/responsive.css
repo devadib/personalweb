@@ -110,6 +110,17 @@ html {
     .about__content{
         width:50%;
     }
+    /* 
+    
+    ---Section About Us---
+    
+    */
+    .resume__menu{
+        height:100%;
+    }
+    .menusection{
+        gap:5rem;
+    }
 
     
 
