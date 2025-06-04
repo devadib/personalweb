@@ -596,6 +596,7 @@ body{
 
 */
 .resume{
+    margin-top:10rem ;
     min-height:80rem;
     display: flex;
     align-items: center;
