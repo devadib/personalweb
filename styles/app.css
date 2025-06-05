@@ -750,3 +750,93 @@ body{
 
 
 }
+
+
+/* 
+
+
+--- Section Resume ---
+
+
+*/
+
+.portfolio{
+   margin-top:8rem;
+}
+
+
+.portfolio-menu{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap:2rem;
+    margin-bottom:4rem;
+
+
+
+}
+.portfolio-menu__item{
+    padding:1rem 2rem;
+    border-radius:7rem;
+    transition: all ease-in-out 200ms;
+
+
+
+}
+.portfolio-menu__item--active{
+    background-color:var(--primary-color);
+    color: #fff;
+}
+.portfolio-content{
+
+
+
+}
+.portfolio-content__img{
+    width:30rem;
+
+
+
+}
+.swiper{
+
+
+
+}
+.swiper-wrapper{
+    
+    
+    
+}
+.swiper-slide{
+    display: flex !important ;
+    justify-content: center !important;
+
+
+
+}
+.swiper-pagination{
+    position: static !important;
+    margin-top:1rem;
+
+
+
+
+}
+.swiper-pagination-bullet{
+    width:2rem !important;
+    height:2rem !important;
+    border: 4px solid #BFBEBE !important;
+    background-color: transparent !important;
+
+
+
+}
+.swiper-pagination-bullet-active{
+   border-color:var(--primary-color) !important;
+
+
+
+
+}

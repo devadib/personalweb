@@ -131,6 +131,18 @@ html {
 /* xl */
 
 @media (min-width: 1200px) {
+
+    /* 
+    
+    ---Section About Us---
+    
+    */
+
+
+    .portfolio-content__img{
+       width:40rem;
+
+    }
  
 }
 

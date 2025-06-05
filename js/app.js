@@ -2,6 +2,7 @@ const menuMobile = document.querySelector('.nav__toggle-icon')
 const menuOpen = document.querySelector('.menu')
 const bgcOpen = document.querySelector('.bgc')
 const menuSectionItem = document.querySelectorAll('.menusection__item')
+const menuPortfolio = document.querySelectorAll('.portfolio-menu__item')
 
 menuMobile.addEventListener('click',function(){
     menuMobile.classList.toggle("open")
@@ -21,3 +22,22 @@ menuSectionItem.forEach(item => {
     },)
 
 })
+
+
+menuPortfolio.forEach( itemLi => {
+
+    itemLi.addEventListener('click',event=>{
+        document.querySelector('.portfolio-menu__item--active').classList.remove('portfolio-menu__item--active')
+        event.target.classList.add('portfolio-menu__item--active')
+
+
+
+
+
+      })
+
+
+
+
+})
+
