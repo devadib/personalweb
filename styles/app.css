@@ -87,7 +87,7 @@ ul{
     align-items:center;
 }
 .section-head{
-    margin: 3rem 0;
+    margin: 4rem 0;
 }
 .section-head__title{
     font-family: "Poppins Bold";
@@ -840,3 +840,99 @@ body{
 
 
 }
+
+.package{
+
+
+}
+.package__head{
+    padding:6rem 0;
+    color:#fff;
+    text-align: center;
+
+
+}
+.package__title{
+    margin:0;
+    font-size:3rem;
+    font-family: "Poppins Bold";
+
+
+}
+.package__price{
+    display: block;
+    margin:1rem;
+    font-family: "Poppins SemiBold";
+    font-size:2.2rem;
+
+
+}
+.package__des{
+    margin: 0;
+
+
+}
+.package__info{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding:3rem 0;
+
+
+}
+.package-options{
+    /* display: flex;
+    align-items: center;
+    flex-direction: column; */
+    /* width:16rem;
+    margin: 0 auto; */
+ 
+
+
+
+}
+.package-options__item{
+    margin-bottom:3rem;
+    
+
+
+}
+.package-options__item:last-child{
+    margin-bottom: 0;
+}
+.package-options__icon{
+
+
+}
+
+
+.package__head--orange{
+    background-color: #FF6331;
+
+}
+.package__head--purple,
+.btn--purple{
+    background-color: #803AFB;
+
+}
+.package__head--pink,
+.btn--pink{
+    background-color: #F5276C;
+    
+}
+.btn--purple {
+    box-shadow: 0 1.5rem 4rem rgb(128 58 251 / 24%);
+}
+
+.btn--pink {
+    box-shadow: 0 1.5rem 4rem rgb(245 39 108 / 24%);
+}
+.pricing__btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:100% !important;
+    height:5rem;
+    border-radius: 5rem;
+}
+

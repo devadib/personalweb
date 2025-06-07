@@ -48,6 +48,15 @@ html {
     display: block; 
 
    }
+   /* 
+   
+   Section pricing
+   
+   */
+   .pricing__btn{
+    width: 25rem !important;
+
+   }
 
 
 }
