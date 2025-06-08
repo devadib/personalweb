@@ -936,3 +936,97 @@ body{
     border-radius: 5rem;
 }
 
+/* 
+
+
+--- Section Resume ---
+
+
+*/
+
+
+
+.contactus{
+
+
+
+
+}
+.map{
+    position: relative;
+    background-image: url('../images/map.jpg');
+    height: 80rem;
+    padding-top:3rem;
+
+
+
+
+}
+.contact__icon{
+    display: none;
+    align-items:center;
+    justify-content: center;
+    width:6rem;
+    height:6rem;
+    background-color:var(--app-bg-color);
+    border-radius:100%;
+    position:absolute;
+    top:25rem;
+    left:25rem;
+    box-shadow: 0 0 4rem rgba(19,182,255,24%);
+
+}
+.contact__svg{
+
+
+}
+
+.contactus__wrapper{
+    box-shadow: 0 0 4rem rgba(19,182,255,24%);
+    background-color: var(--app-bg-color);
+    padding: 3rem;
+    width:100%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    border-radius:2rem;
+
+    
+}
+.contactus__title{
+    font-size:4rem;
+    color: var(--primary-color);
+    
+    
+    
+    
+}
+.contactus__form{
+    width: 100%;
+}
+.contactus__input,
+.contactus__textarea{
+    font-size:1.2rem;
+    display: block;
+    width:100%;
+    height:4rem;
+    padding-left:1rem;
+    margin-bottom:3rem;
+    box-shadow: 0 0 5rem rgba(96,233,255,27%);
+    border: none;
+    outline: none;
+    border-radius:.5rem;
+
+
+
+}
+.contactus__textarea{
+    max-height:10rem;
+    font-size:1.4;
+    resize: vertical;
+}
+.btn--contact{
+    width: 100% !important;
+}
+

@@ -29,6 +29,7 @@ html {
     }
 
 
+
 }
 
 
@@ -57,8 +58,25 @@ html {
     width: 25rem !important;
 
    }
+   /* 
+   
+   Section contact us
+   
+   */
+   .contactus__wrapper{
+    width:40rem;
+    position: absolute;
+    right:8rem;
+    }
+    .contact__icon{
+        display: flex;
+        top:25rem;
+        left:5rem;
+ 
+    }
 
 
+ 
 }
 
 
@@ -129,6 +147,16 @@ html {
     }
     .menusection{
         gap:5rem;
+    }
+    /* 
+    
+    ---Section Contact Us---
+    
+    */
+    .contact__icon{
+        top:25rem;
+        left:25rem;
+ 
     }
 
     
