@@ -102,6 +102,7 @@ ul{
     text-align: center;
     color: var(--primary-color);
     margin:1rem 0;
+    letter-spacing: .25rem;
 
 
 }
@@ -842,7 +843,9 @@ body{
 }
 
 .package{
-
+    box-shadow: 0 0 5rem rgba(96, 233, 255, 27%);
+    border-radius:2rem;
+    overflow: hidden;
 
 }
 .package__head{
@@ -1030,3 +1033,64 @@ body{
     width: 100% !important;
 }
 
+/* 
+
+
+--- Section Resume ---
+
+
+*/
+
+.footer{
+    margin-top:3rem;
+}
+
+
+
+.footer__wrapper{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap:2rem;
+
+
+}
+.footer__socials{
+    display: flex;
+    gap:1rem;
+    flex-direction: row-reverse;
+
+
+
+}
+.footer__social{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    width:5rem;
+    height:5rem;
+    border-radius:100%;
+    background-color:#1F2935;
+}
+.footer__social:hover{
+    transition: all ease-in-out 250ms;
+    background-color:var(--primary-color);
+}
+
+.footer__icon{
+     fill:var(--app-bg-color);
+}
+
+.footer__copyright{
+    font-size: 1.2rem;
+    color: var(--text-color);
+    letter-spacing: .25rem;
+
+
+
+}
+.footer__text{
+
+
+
+}
