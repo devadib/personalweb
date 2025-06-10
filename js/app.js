@@ -3,7 +3,7 @@ const menuOpen = document.querySelector('.menu')
 const bgcOpen = document.querySelector('.bgc')
 const menuSectionItem = document.querySelectorAll('.menusection__item')
 const menuPortfolio = document.querySelectorAll('.portfolio-menu__item')
-
+const btnScroll = document.querySelector('.scrolltop')
 menuMobile.addEventListener('click',function(){
     menuMobile.classList.toggle("open")
     menuOpen.classList.toggle("open")
@@ -36,6 +36,13 @@ menuPortfolio.forEach( itemLi => {
 
       })
 
+
+
+
+})
+btnScroll.addEventListener('click',()=>{
+    console.log('click')
+    window.scrollTo(0,0)
 
 
 

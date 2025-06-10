@@ -14,6 +14,7 @@
 }
 
 html{
+    scroll-behavior: smooth;
     font-size: 10px;
 
 }
@@ -1042,7 +1043,9 @@ body{
 */
 
 .footer{
+    position: relative;
     margin-top:3rem;
+    margin-bottom :3rem;
 }
 
 
@@ -1090,6 +1093,38 @@ body{
 
 }
 .footer__text{
+
+
+
+}
+/* 
+
+
+--- scorll top ---
+
+
+*/
+
+.scrolltop{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:5rem;
+    height:5rem;
+    background-color: #fff;
+    position:absolute;
+    top:-5.5rem;
+    box-shadow: 0 0 5rem rgba(96,233,255,27%);
+    border-radius:2rem;
+    left:0;
+    right:0;
+    margin: 0 auto;
+
+}
+.arrow-icon{
+    width:3rem;
+
+
 
 
 
